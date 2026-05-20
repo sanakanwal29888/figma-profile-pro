@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 856px;
+    margin:auto;
+}
+nav ul {
+    margin: 7px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    font-weight: 57px 43px ;
+}
+nav ul li {
+    display: inline;
+    padding: 0px 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #070505;
+    font-size: 20 px;
+    
+}
+nav ul li a:hover {
+    color: gray;
+}
+.heebo-medium {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.heebo-regular {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.heebo-bold {
+    font-weight: 700;
+    }
+    .resume-section{
+        display: flex;
+        margin-top: 154px;
+    }
+.resume-section .resume-left {
+    padding-right:95px;
+}
+.resume-section .resume-right{
+display: flex;
+justify-content: end;
+}
+.resume-section .resume-right img {
+    width:243px;
+    height:243;
+    box-shadow:grey;
+}
+.resume-section h1 {
+    font-size: 42px;
+    line-height: 60px;
+}
+.anchor-a {
+    font-weight: 700;
+    background-color: #f02424;
+    text-decoration: none;
+    font: size 36px;
+     font-family: "Heebo", sans-serif;
+   color:white;
+   padding:10px ;
+
+}
