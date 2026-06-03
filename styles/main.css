@@ -97,6 +97,7 @@ nav ul li a {
     border-radius: 50%;
     margin-top: -25px;
     margin-left: 117px;
+    filter: drop-shadow(5px 5px 10px rgba(247, 251, 253, 0.5));
 }
 .second{
     width: 243px;
@@ -264,8 +265,8 @@ footer .icon-main{
     align-items: center;
 }
 footer .icons{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     padding-left: 35px;
     margin-top: 132px;
 }
@@ -274,7 +275,7 @@ footer .icons{
     justify-content: center;
     align-items: center;
     margin-left: 35px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 35px;
 }
     /* Footer Section END *
