@@ -120,14 +120,21 @@ nav ul li a {
 
     /* Second Section Start */
 .recent-main{
-    width: 1265px;
+    width:100%;
+    min-height: 400px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: #EDF7FA;
+}
+   
+   /* width: 1265px;
     height: 396px;
-    margin: auto;
+    margin:auto;
     background-color: #EDF7FA;
     align-items: center;
     margin-top: 71px;
     margin-bottom: 35px;
-}
+} */
 .heading{
     height: 60px;
     /* background-color: red; */
@@ -238,6 +245,7 @@ nav ul li a {
 .ctg {
   color: #8695A4;
   font-size: 20px;
+  
 }
 
 .ctg p {
