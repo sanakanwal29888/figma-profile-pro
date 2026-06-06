@@ -1,146 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
-
 <body>
-    <header class="container">
+<!-- menu items add in first section-->
+   <header class="container">
     <nav>
-        <ul>
-            <li><a href="#">Works</a></li>
+        <ul class="heebo-medium">
+            <li ><a href="#">Works</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Contract</a></li>   
         </ul>
     </nav>
-    </header>    
-    <div class="center-container heebo-bold">
-        <div class="lef-side">
-            <h1 class="heebo-bold">Hi, I am John, <br>
-            Creative Technologist</h1>
-            <div class="para">
-            <p class="heebo-regular">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  
-            </p>
-            </div>
-            <button class="download">Download Resume</button>
-        </div>
-        <div class="right-side">
-            <div class="second"></div>
-            <img src="./images/Ellipse 1.png" alt="Profile Image" class="logo-image">
-            
+   </header>
+   <!--create class container for resume section --> 
+   <main class="container">
+   <section class="resume-section">
+    <div class="resume-left">
+        <h1>
+            Hi, I am John,</br>Creative Technologist
+        </h1>
+        <p class="heebo-regular">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></br>
+      <a href="#" class="anchor-a">Download Resume</a></div>
+    <div class="resume-right">
+        <div class="profile-outer-circle"></div>
+            <img src="./images/Ellipse 1.png" width="243" height="243" alt="Profile Picture" />
         </div>
     </div>
-
-<br/>   
-    <div class="recent-main">
-        <div class="heading">
-            <h3 class="heebo-regular">Recent posts</h3>
-       <a href="#">View all</a>
-        </div>
-        <div class="head-main">
-
-        <div class="right-head">
-
-            <h2 class="heebo-bold">Making a design system from scratch</h2>
-            <p class="heebo-regular">12 Feb 2020ㅤ|ㅤDesign, Pattern</p>
-            <p class="text-left heebo-regular">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-
-        </div>
-
-        <div class="left-head">
-
-            <h2 class="heebo-bold">Creating pixel perfect icons in Figma</h2>
-            <p class="heebo-regular">12 Feb 2020ㅤ|ㅤFigma, Icon design</p>
-            <p class="text-right heebo-regular">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-
-        </div>
-        </div>
-    </div>
-    <div class="featured-work heebo-regular">
-        <div class="heading">
-            <h3 class="heebo-regular">Featured works</h3>
-        </div>
-        
-         <div class="division1">
-    <div class="work-image">
-
-      <img src="./images/Rectangle 30@2x.png">
-
-    </div>
-    
-    <div class="content">
-      <h3 class="heebo-bold">Designing Dashboards</h3>
-      <div class="para-content">
-        <span class="part-1">2020</span>
-        <span class="ctg">Dashboard</span>
+   </section>
+   </main>
+  </div>
+</div>
+ 
+<!-- Second post -->
+<section style="background-color:#EDF7FA"; >
+  <div class="header">
+    <h2>Recent posts</h2>
+    <a href="#" class="view-all">View all</a>
+  </div>
+  <div class="post-grid">
+    <!-- Post Card 1 -->
+    <article class="post-card">
+      <h2>Making a design system from scratch</h2>
+      <div class="post-meta">
+        <span>12 Feb 2020</span>
+        <span class="separator">|</span>
+        <span>Design, Pattern</span>
       </div>
-      <p class="heebo-regular">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+      <div class="post-card-p">
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Exercitation veniam consequat sunt nostrud amet.</p>
+    </div>
+    </article>
+
+    <!-- Post Card 2 -->
+    <article class="post-card">
+      <h2>Creating pixel perfect icons in Figma</h2>
+      <div class="post-meta">
+        <span>12 Feb 2020</span>
+        <span class="separator">|</span>
+        <span>Figma, Icon Design</span>
+      </div>
+      <div class="post-card-p">
+     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Exercitation veniam consequat sunt nostrud amet.</p>
+</div>
+
+    </article>
+  </div></section>
+
+<!--Third Section of profile-->
+<header class="container">
+<section>
+  <div class="header">
+  <h2>Featured works</h2></div>
+  
+  <!-- Project Item 1 -->
+  <div class="work-item">
+    <div class="work-image">
+      <img src="./images/Rectangle 30@2x.png" width="246" height="180" alt="Vibrant Portraits">
+    </div>
+    <div class="work-content">
+      <h3>Designing Dashboard</h3>
+      <div class="work-meta">
+        <span class="year">2020</span>
+        <span class="category">Dashboard</span>
+      </div>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     </div>
   </div>
-<hr>
-<!-- 2nd division -->
-       <div class="division1">
+
+  <!-- Project Item 2 -->
+  <div class="work-item">
     <div class="work-image">
-
-      <img src="./images/Rectangle 32.png">
-
+      <img src="./images/Rectangle 32.png" width="246" height="180 alt="Vibrant Portraits">
     </div>
-    
-    <div class="content">
-      <h3 class="heebo-bold">Vibrant Portraits of 2020</h3>
-      <div class="para-content">
-        <span class="part-1">2018</span>
-        <span class="ctg">Illustration</span>
+    <div class="work-content">
+      <h3>Vibrant Portraits of 2020</h3>
+      <div class="work-meta">
+        <span class="year">2018</span>
+        <span class="category">Illustration</span>
       </div>
-      <p class="heebo-regular">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     </div>
   </div>
-<hr>
- <!-- third division -->
-   <div class="division1">
+
+  <!--Project Item 3-->
+  <div class="work-item">
     <div class="work-image">
-
-      <img src="./images/Rectangle 34.png">
-
+      <img src="./images/Rectangle 34.png"  width="246" height="180" alt="Vibrant Portraits">
     </div>
-    
-    <div class="content">
-      <h3 class="heebo-bold">36 Days of Malayalam type</h3>
-      <div class="para-content">
-        <span class="part-1">2018</span>
-        <span class="ctg">Typography</span>
+    <div class="work-content">
+      <h3>36 Days of Malayalam type</h3>
+      <div class="work-meta">
+        <span class="year">2018</span>
+        <span class="category">Typoraphy</span>
       </div>
-      <p class="heebo-regular">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     </div>
   </div>
-<hr>
-    </div>
-    </div>
+</section>
+</header>
+
+<footer class="footer-container">
     
-     
+    <div>
+    <ul class="social-icons">
+        <li><img src="./images/facebook.png" width="30"></li>
+        <li><img src="./images/instagram.png" width="30">   </li>
+         <li><img src="./images/twitter.png" width="30">   </li>
+        <li><img src="./images/linkdinn.png" width="25"></li>
+         </ul>
     </div>
-    
-         
-  <!-- footer -->
-   <footer><div class="icons-main">
-    <img src="./images/facebook.png" alt="facebook" class="icons">
-    <img src="./images/instagram.png" alt="instagram" class="icons">
-    <img src="./images/twitter.png" alt="twitter" class="icons">
-    <img src="./images/linkdinn.png" alt="linkedin" class="icons">
+    <div>
+         <p class="copyright-text">Copyright © 2026 All rights reserved.</p>
     </div>
-   </footer>
-   <div class="copy heebo-regular">Copyright ©2020 All rights reserved</div>
-   
-  </body>
+</footer>
+</body>
 </html>

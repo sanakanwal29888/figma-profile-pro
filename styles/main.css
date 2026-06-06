@@ -1,219 +1,183 @@
-*{
-        text-decoration: none;
-        list-style: none;
-    
-} 
-
- body{
+body {
     margin: 0;
- }
-
- /* Navigation Section Start */
-
-nav{
-     margin-top: 20px;
 }
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-top: -20px;
-}
-nav ul li{
-   margin-top: 34px;
-    display: inline;
-    float: right;
-    margin-left: 37px;
-    font-size: 18px;
-}
-nav ul li a {
-    color: black;
-}
-
-    /* Navigation Section End */
-
-    /* HEEBO google font set as per figma design */
-.heebo{
-        font-family: "Heebo", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        color: black;
-    }
-.heebo-regular {
-        font-family: "Heebo", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-}
-.heebo-bold {
-        font-family: "Heebo", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 800;
-        font-style: normal;
-}
-
-    /* HEEBO Font Section END */
-
-    /* Container Section Start */
-.container{
+.container {
+    font-family: "Heebo" , sans-serif;
     width: 856px;
-    margin:  auto;
-    height: 55px;
-    font-family: "Heebo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
-.center-container{
-    width: 856px;
-    height: 306px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    margin-top: 163px;
-}
-.left-side{
-    width: 491px;
-}
-.left-side h1{
-    line-height: 60px;
-    font-size: 44px;
-}
-.left-side .para{
-    width: 66px;
-    line-height: auto;
-}
-
-.right-side{
-    width: 365px;
-    height: 243px;
-    float: right;
-}
-.logo-image{
-    width: 243px;
-    height: 243px;
-    border-radius: 50%;
-    margin-top: -25px;
-    margin-left: 117px;
-    filter: drop-shadow(5px 5px 10px rgba(247, 251, 253, 0.5));
-}
-.second{
-    width: 243px;
-    height: 243px;display: inline;
-    border-radius: 50%;
-    background-color: burlywood;
-    z-index: -1;
-}
-.download{
-    margin-top: 30px;
-    font-size: 20px;
-    padding: 12px;
-    background-color: #FF6464;
-    color: white;
-    box-shadow: none;
-    border: none;
-    border-radius: 1%;
-}
-
-    /* Container END */
-
-    /* Second Section Start */
-.recent-main{
-    width:100%;
-    min-height: 400px;
-    padding:20px;
-    box-sizing: border-box;
-    background-color: #EDF7FA;
-}
-   
-   /* width: 1265px;
-    height: 396px;
     margin:auto;
-    background-color: #EDF7FA;
-    align-items: center;
-    margin-top: 71px;
-    margin-bottom: 35px;
-} */
-.heading{
-    height: 60px;
-    /* background-color: red; */
-    margin: auto;
-    width: 857px;
+}
+
+nav ul {
+    margin: 7px 0 0 0;
+    padding: auto;
+    list-style: none;
     display: flex;
-    margin-bottom: 20px;
+    justify-content: right;
     
 }
-.recent-main h3{
-    float: left;
-    line-height: 60px;
-    color: #21243D;
-    font-size: 22px;
+nav ul li {
     display: inline;
+    padding: 0px 18px;
+    width: 38px;
+  }
+nav ul li a {
+    text-decoration: none;
+    color: #070505;
+    font-size: 20 px;
+    font-weight: 400px;
+    
 }
-.recent-main a{
-    color: #00A8CC;
-    text-decoration: underline;
-    font-size: 16px;
-    margin-top: 44px;
-    float: right;
-    margin-left: 660px;
+nav ul li a:hover {
+    color: rgb(201, 28, 28);
 }
-.head-main{
-    width: 857px;
-    height: 296px;
-    margin: auto;
-    display: flex;
+.heebo-medium {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-.right-head{
-    width: 418px;
-    height: 295px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    padding-left: 24px;
-    border-radius: 8px;
+.heebo-regular {
+      font-family: 'Heebo', sans-serif;
+      font-size: 16px;
+      font-weight: 400; /* Regular weight */ 
+      width: 497px;     
+    }
+    
+.heebo-bold {
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+    }
+    .resume-section{
+        display: flex;
+        margin-top: 154px;
+        margin-bottom: auto;
+    }
+.resume-section .resume-left {
+    padding-right:95px;
 }
-.right-head h2{
-    width: 374px;
-    height: 85px;
-    margin-top: 32px;
+.resume-section .resume-right{
+display: flex;
+justify-content: end;
+}
+.resume-section .resume-right img {
+    width:243px;
+    height:243;
+    box-shadow:grey;
+}
+.resume-section h1 {
+    font-size: 44px;
+    font-weight: 700px;
+    line-height: 60px;
+}
+.anchor-a {
+    background-color: #FF6464;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:400px;
+    font-family: "Heebo", sans-serif;
+    color:white;
+    padding:10px 20px 10px 20px ;
+    box-sizing:border-box;
+    border-radius: 2px;
+}
+
+
+<!-- this is next css for post -- >
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #edf7fa; /* Light blue background from image */
+  padding: 400px;
+}
+
+.header {
+  font-family: "Heebo", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto 5px;
+  padding: 10px;
+}
+
+.header h2 { 
+    font-size: 22px; 
+    font-weight:400;
+    align-items:left;
     color: #21243D;
-}
-.right-head p{
-    line-height: auto;
-}
-.left-head{
-    margin-left: 20px;
-    width: 418px;
-    height: 295px;
-    background-color: white;
-    float: right;
-    border-radius: 8px;
-    align-items: center;
-    padding-left: 24px;
-}
-.left-head h2{
-    width: 374px;
-    height: 85px;
-    margin-top: 32px;
-    color: #21243D;
+    padding:0px 0px 10px auto;   
+ }
+.view-all {
+     color: #00A8CC;
+padding-bottom: 0%;
+     text-decoration: none; 
+     font-size:16px; 
+     font-weight: 400;
+    }
+.post-grid {    
+  display: flex;
+  gap: 22px;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding-bottom: 20px;
+    }
+
+.post-card {
+  background: white;
+  font-family: "Heebo", sans-serif;
+  padding: 10px 10px 20px 10;
+  border-radius: 4px;
+  max-width: 418px;
+  max-height: 295;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-    /* Second Section END */
-
-    /* FEATURED START */
-
-.featured-work{
-    margin: auto;
-    width: 858px;
-    height: 785px;
+.post-card h2 {
+  font-family: "Heebo" sans-serif;
+  margin-top: 10px;
+  font-size: 26px;
+  color: #21243D;
+  line-height: 1.5;
+  font-weight:700; 
+  padding: 10px 20px 7px 20px; 
 }
 
-.division1{
-  display: flex; 
-  padding-bottom: 30px;
+.post-meta {
+  margin: 15px 0;
+  font-size:18px;
+  font-weight:400 ;
+  line-height: 0.5;
+  color: #21243D;
+  padding: 5px 20px 10px 20px;
+}
+
+.separator { 
+    margin: 0 10px; 
+    color: #000; 
+  padding-bottom: 0px;}
+
+.post-card-p {
+  line-height: 1.5;
+  color: #21243D;
+  font-size:16px;
+  font-weight:400;
+  padding:0px 25px 0px 20px;
+}
+
+<!--Third section CSS-->
+
+h2 {
+  font-family: "heebo" sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.work-item {
+  display: flex; /* Aligns image and text horizontally */
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0; /* Separator line between items */
 }
 
 .work-image img {
@@ -221,70 +185,98 @@ nav ul li a {
   height: 180px;
   object-fit: cover;
   border-radius: 6px;
-}
-.content{
-    margin-left: 20px;
-}
-.content h3 {
-  font-size: 30px;
-  margin: 0 0 15px 0;
+  
 }
 
-.para-content{
+.work-content h3 {
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #21243D;
+  opacity: 100%;
+}
+
+.work-meta {
   margin-bottom: 15px;
 }
 
-.part-1{
+.year {
   background-color: #142850;
   color: white;
   padding: 2px 10px;
   border-radius: 16px;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
-.ctg {
+.category {
   color: #8695A4;
   font-size: 20px;
-  
 }
 
-.ctg p {
-  line-height: auto;
+.work-content p {
+  line-height: 1.5;
   margin: 0;
-}
-hr{
-    margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-    /* Features Section END */
+<!--footercss --->
+.footer-container {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Heebo", sans-serif;
+  color: #333;
+}
 
-    /* Footer Section Start */
-footer{
-    width: 1152px;
-    height: 182px;
-    margin: auto;
-    display: flex;
-    align-items: center;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between icons */
+  padding: 50px 10px 20px 10px;
+}
+
+.icon-link {
+  color: #1a1a1a; /* Dark color for icons */
+  font-size: 24px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.icon-link:hover {
+  opacity: 0.7; /* Simple hover effect */
+}
+
+.copyright-text {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  justify-content: center;
+  padding: top 0px;;
+}
+ul {
+    text-align: center;
+  list-style-position: inside;
+}
+li {
+        
+    display:inline; 
+    gap: 100px;
+}
+
+.container2 {
+    width: 500px;
+    margin:auto;
     justify-content: center;
+    
 }
-footer .icon-main{
-    width: 232px;
-    height: 32px;
-    align-items: center;
+
+section {
+  width: 100%;       /* Spans full width of the container */
+  min-height: 400px; /* Ensures it is at least 400px tall */
+  padding: 20px;     /* Adds space inside the section */
+  box-sizing: border-box; /* Includes padding in the total width/height */
+  justify-content: space-between;
 }
-footer .icons{
-    width: 35px;
-    height: 35px;
-    padding-left: 35px;
-    margin-top: 132px;
-}
-.copy{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 35px;
-    margin-top: 10px;
-    margin-bottom: 35px;
-}
-    /* Footer Section END *
