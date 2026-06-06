@@ -96,13 +96,13 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 850px;
-  margin: 0 auto 5px;
+  margin: 0px auto 0px;
   padding: 10px;
 }
 
-.header h2 { 
+.header h3 { 
     font-size: 22px; 
-    font-weight:400;
+    font-weight: 400;
     align-items:left;
     color: #21243D;
     padding:0px 0px 10px auto;   
@@ -234,8 +234,8 @@ h2 {
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 40px; /* Space between icons */
-  padding: 50px 10px 20px 10px;
+  gap: 30px; /* Space between icons */
+  padding: 50px 10px 10px 10px;
 }
 
 .icon-link {
