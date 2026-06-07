@@ -96,8 +96,8 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 850px;
-  margin: 0px auto 0px;
-  padding: 10px;
+  margin: auto;
+
 }
 
 .header h3 { 
