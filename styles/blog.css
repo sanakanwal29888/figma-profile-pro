@@ -65,6 +65,7 @@ nav ul li a:hover {
     font-family:"Heebo" , sans-serif;
     font-weight: 500;
     font: size 30px;
+    font-weight: medium;
     color: #21243D;
 }
 
@@ -98,4 +99,35 @@ section {
 }
 div h2, div h1,div h3, div p {
   margin-top: 0;
+}
+
+<!--footercss --->
+.footer-container {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Heebo", sans-serif;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between icons */
+  padding: 50px 10px 10px 10px;
+}
+.copyright-text {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  justify-content: center;
+  padding: top 0px;;
+}
+ul {
+    text-align: center;
+  list-style-position: inside;
+}
+li {
+        
+    display:inline; 
+    gap: 100px;
 }
