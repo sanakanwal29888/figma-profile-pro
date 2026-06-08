@@ -1,21 +1,25 @@
 body{
     margin:0px;
+    padding: 10px 10px 10px 10px ;
 }
 /*menu item css*/
 .container {
     font-family: "Heebo" , sans-serif;
-    width: 682px;
+    width: 980px;
     margin:auto;
-}
+    }
+
 nav ul {
+    
     font-family: "Heebo" , sans-serif;  
     display: flex;
     justify-content: right;
     
+    
 }
 nav ul li {
     display: inline;
-    padding: 20px 18px;
+    padding: 10px 18px;
     width: 39px;
   }
 
@@ -35,21 +39,63 @@ nav ul li a:hover {
     font-family: "Heebo" , sans-serif;
     font-weight: 400;
     font: size 16px;
+    color:#21243D;
 
 }
-.heebo-regular20 {
+.heebo-regular20-col-b {
     font-family: "Heebo" , sans-serif;
     font-weight: 400;
     font: size 20px;
+    color:#21243D;
+    display: flex;
+}
+.heebo-regular20-col-a {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 20px;
+    color:#8695A4;
 }
 .heebo-bold44 {
     font-family:"Heebo" , sans-serif;
     font-weight:700;
     font: size 44px;
+    width: 57px;
 }
 .heebo-medium30{
     font-family:"Heebo" , sans-serif;
     font-weight: 500;
     font: size 30px;
+    color: #21243D;
 }
 
+/*blog section display setting*/
+.container{
+    font-family: "Heebo" , sans-serif;
+    width: 682px;
+    margin:auto;
+    margin-bottom: 58px;
+}
+
+.blog-section{
+        display: flex;
+        margin-bottom: 0px;
+        }
+    
+.blog-section-seperate {
+  border-bottom: 1px solid #E0E0E0; /* Separator line between items */
+}
+.seperator {
+    margin-top: 0;
+    display: flex;
+
+}
+section {
+  width: 100%;       /* Spans full width of the container */
+  padding: 10px;     /* Adds space inside the section */
+  box-sizing: border-box; /* Includes padding in the total width/height */
+  justify-content: space-between;
+  margin-top: 0;
+}
+div h2, div h1,div h3, div p {
+  margin-top: 0;
+}
