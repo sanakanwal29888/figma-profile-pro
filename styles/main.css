@@ -24,7 +24,7 @@ nav ul li a {
     text-decoration: none;
     color: #070505;
     font-size: 20 px;
-    font-weight: 400px;
+    font-weight: 500px;
     
 }
 nav ul li a:hover {
@@ -174,7 +174,7 @@ h2 {
 
 .work-item {
   display: flex; /* Aligns image and text horizontally */
-  gap: 10px;
+  gap: 20px;
   padding-bottom: 10px;
   margin-bottom: 30px;
   border-bottom: 1px solid #E0E0E0; /* Separator line between items */
@@ -217,8 +217,8 @@ h2 {
 
 .work-content p {
   line-height: 1.5;
-  margin: 0;
-  box-sizing: border-box;
+  width: 594px;
+  min-height: 93px;
   font-size: 16px;
   font-weight: 400;
 }

@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+}
+/*menu item css*/
+.container {
+    font-family: "Heebo" , sans-serif;
+    width: 682px;
+    margin:auto;
+}
+nav ul {
+    font-family: "Heebo" , sans-serif;  
+    display: flex;
+    justify-content: right;
+    
+}
+nav ul li {
+    display: inline;
+    padding: 20px 18px;
+    width: 39px;
+  }
+
+nav ul li a {
+    text-decoration: none;
+    color: #FF6464;
+    font-size: 20px;
+    font-weight: 500px;
+    
+}
+nav ul li a:hover {
+    color: rgb(10, 4, 4);
+}
+
+/*font family size in different formats*/
+.heebo-regular16 {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 16px;
+
+}
+.heebo-regular20 {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 20px;
+}
+.heebo-bold44 {
+    font-family:"Heebo" , sans-serif;
+    font-weight:700;
+    font: size 44px;
+}
+.heebo-medium30{
+    font-family:"Heebo" , sans-serif;
+    font-weight: 500;
+    font: size 30px;
+}
+
