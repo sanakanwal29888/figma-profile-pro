@@ -1,0 +1,167 @@
+body{
+    margin:0px;
+    padding: 10px 10px 10px 10px ;
+}
+/*menu item css*/
+
+nav ul {
+    margin: 7px 0 0 0;
+    padding: auto;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    
+}
+nav ul li {
+    display: inline;
+    padding: 0px 18px;
+    width: 38px;
+  }
+nav ul li a {
+    text-decoration: none;
+    color: #070505;
+    font-size: 20 px;
+    font-weight: 500px;
+    
+}
+nav ul li a:hover {
+    color: rgb(201, 28, 28);
+}
+
+
+/*font family size in different formats*/
+.heebo-regular16 {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 16px;
+    color:#21243D;
+
+}
+.heebo-regular20-col-b {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 20px;
+    color:#21243D;
+    display: flex;
+}
+.heebo-regular20-col-a {
+    font-family: "Heebo" , sans-serif;
+    font-weight: 400;
+    font: size 20px;
+    color:#8695A4;
+}
+.heebo-bold44 {
+    font-family:"Heebo" , sans-serif;
+    font-weight:700;
+    font: size 44px;
+    width: 57px;
+    color:#21243D;
+     
+}
+.heebo-bold30 {
+    font-family:"Heebo" , sans-serif;
+    font-weight:700;
+    font: size 30px;
+    width: 57px;
+    color:#21243D;
+     
+}
+.heebo-medium30{
+    font-family:"Heebo" , sans-serif;
+    font-weight: 500;
+    font: size 30px;
+    font-weight: medium;
+    color: #21243D;
+}
+
+/*work section display setting*/
+
+
+.container{
+    font-family: "Heebo" , sans-serif;
+    width: 682px;
+    margin:auto;
+    margin-bottom: 58px;
+}
+.work-item {
+  display: flex; /* Aligns image and text horizontally */
+  gap: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0; /* Separator line between items */
+}
+.work-image img {
+  width: 246px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  
+}
+
+.work-content h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 30 px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #21243D;
+  opacity: 100%;
+}
+.work-meta {
+  margin-bottom: 15px;
+}
+
+.year {
+  background-color: #142850;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.category {
+  color: #8695A4;
+  font-size: 20px;
+}
+
+.work-content p {
+  line-height: 1.5;
+  width: 418px;
+  min-height: 93px;
+  font-size: 16px;
+  font-weight: 400;
+  color:#21243D;
+}
+
+<!--footercss --->
+.footer-container {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Heebo", sans-serif;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between icons */
+  padding: 50px 10px 10px 10px;
+}
+.copyright-text {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  justify-content: center;
+  padding: top 0px;;
+}
+ul {
+    text-align: center;
+  list-style-position: inside;
+}
+li {
+        
+    display:inline; 
+    gap: 100px;
+}
+
+
